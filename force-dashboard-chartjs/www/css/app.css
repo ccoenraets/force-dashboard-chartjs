@@ -1,0 +1,159 @@
+h1 {
+    font-family: 'Segoe UI Light', 'Helvetica Neue Light', 'Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana;
+    font-weight: 200;
+    font-size: 20px;
+    cursor: default;
+}
+
+#left-nav {
+    position: absolute;
+    width: 280px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: #484B4C;
+    border-right: solid 1px #000;
+    color: #ddd;
+}
+
+#left-nav > .welcome {
+    padding: 12px 12px 30px 12px;
+}
+
+#left-nav > .list > li {
+    border-bottom: solid 1px #444;
+    padding: 8px;
+}
+
+.list-item:not(:first-of-type) {
+    border-top: solid 1px #555;
+}
+
+#left-nav > .list > .list-item h3 {
+    margin: 0px;
+    font-size: 16px;
+    color: #e5e5e5;
+}
+
+#left-nav > .list > .list-item p {
+    margin: 0px;
+}
+
+#left-nav > .list > li:active {
+    background-color: #393939;
+}
+
+#left-nav > .title {
+    padding: 4px;
+}
+
+#left-nav i {
+    font-size: 28px;
+    float: left;
+    margin-right: 8px;
+    width: 28px;
+}
+
+#container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#container.offset {
+    -webkit-transform: translate3d(280px, 0, 0);
+    transform: translate3d(280px, 0, 0);
+}
+
+#container.transition {
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+}
+
+#content {
+    position: absolute;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    top: 44px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: #ffffff;
+}
+
+.chart {
+    width: 49%;
+    height: 49%;
+    float: left;
+    padding: 12px;
+    /*margin: 1px;*/
+    /*background: red;*/
+    text-align:center;
+    color: #999;
+    position: relative;
+
+}
+
+.chart.full-width {
+    width: 100%;
+}
+
+.chart.full-height {
+    height: 100%;
+}
+
+.chart.one-third {
+    width: 40%;
+}
+
+.chart.two-thirds {
+    width: 60%;
+}
+
+.chart2 {
+    width: 490px;
+    height: 700px;
+    float: left;
+    padding: 10px;
+
+}
+
+.card.tooltip {
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    background: yellow !important;
+    /*opacity: .1;*/
+    opacity: 0;
+}
+
+#gauge {
+    width: 250px;
+    height: 250px;
+    margin: -36px auto;
+}
+
+.chart .content {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    opacity: 0;
+}
+
+#closeDate,
+#owner {
+    color: #999;
+}
+
+.chart .empty {
+    width: 100%;
+    padding: 130px 90px;
+}
+
+.chart i {
+    font-size: 36px;
+}
